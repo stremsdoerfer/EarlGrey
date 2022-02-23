@@ -1,4 +1,5 @@
 *~
 *.sw[o-p]
+.build
 .DS_Store
 Submodules/
