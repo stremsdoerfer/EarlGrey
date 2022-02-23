@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "Common/GREYAppleInternals.h"
-#import "Synchronization/GREYAppStateTracker.h"
+#import "../Common/GREYAppleInternals.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "GREYBaseTest.h"
 
 

@@ -16,9 +16,9 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Additions/XCTestCase+GREYAdditions.h"
-#import "Common/GREYError.h"
-#import "Common/GREYFailureFormatter.h"
+#import "../Additions/XCTestCase+GREYAdditions.h"
+#import "../Common/GREYError.h"
+#import "../Common/GREYFailureFormatter.h"
 #import "GREYBaseTest.h"
 
 @interface GREYFailureFormatterTest : GREYBaseTest

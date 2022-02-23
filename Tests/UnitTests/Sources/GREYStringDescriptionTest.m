@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Matcher/GREYStringDescription.h"
+#import "../Matcher/GREYStringDescription.h"
 #import "GREYBaseTest.h"
 
 /**

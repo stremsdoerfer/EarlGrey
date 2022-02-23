@@ -16,8 +16,8 @@
 
 #include <objc/runtime.h>
 
-#import "Additions/NSObject+GREYAdditions.h"
-#import "Additions/UIView+GREYAdditions.h"
+#import "../Additions/NSObject+GREYAdditions.h"
+#import "../Additions/UIView+GREYAdditions.h"
 #import "GREYBaseTest.h"
 #import "GREYExposedForTesting.h"
 

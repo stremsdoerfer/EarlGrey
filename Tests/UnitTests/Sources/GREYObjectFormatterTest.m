@@ -16,7 +16,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Common/GREYObjectFormatter.h"
+#import "../Common/GREYObjectFormatter.h"
 #import "GREYBaseTest.h"
 
 @interface GREYObjectFormatterTest : GREYBaseTest

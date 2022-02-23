@@ -15,7 +15,7 @@
 //
 
 #import <EarlGrey/GREYOperationQueueIdlingResource.h>
-#import "Synchronization/GREYUIThreadExecutor+Internal.h"
+#import "../Synchronization/GREYUIThreadExecutor+Internal.h"
 #import "GREYBaseTest.h"
 #import "GREYExposedForTesting.h"
 

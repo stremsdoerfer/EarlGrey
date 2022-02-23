@@ -17,8 +17,8 @@
 #import "FTRBaseIntegrationTest.h"
 #import "FTRFailureHandler.h"
 #import "Action/GREYActions+Internal.h"
-#import "Additions/NSError+GREYAdditions.h"
-#import "Core/GREYKeyboard.h"
+#import "../Additions/NSError+GREYAdditions.h"
+#import "../Core/GREYKeyboard.h"
 
 @interface FTRKeyboardKeysTest : FTRBaseIntegrationTest
 @end

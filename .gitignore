@@ -1,5 +1,6 @@
 *~
 *.sw[o-p]
+.build
 .DS_Store
 xcuserdata
 *.gem

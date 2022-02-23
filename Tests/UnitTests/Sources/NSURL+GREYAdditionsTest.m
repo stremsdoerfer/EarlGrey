@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "Additions/NSURL+GREYAdditions.h"
-#import "Common/GREYAnalytics.h"
+#import "../Additions/NSURL+GREYAdditions.h"
+#import "../Common/GREYAnalytics.h"
 #import "GREYBaseTest.h"
 #import "GREYExposedForTesting.h"
 

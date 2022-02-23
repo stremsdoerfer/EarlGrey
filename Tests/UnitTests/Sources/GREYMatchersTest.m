@@ -16,11 +16,11 @@
 
 #import <OCMock/OCMock.h>
 
-#import "Common/GREYAppleInternals.h"
+#import "../Common/GREYAppleInternals.h"
 #import <EarlGrey/GREYElementInteraction.h>
 #import <EarlGrey/GREYMatcher.h>
 #import <EarlGrey/GREYMatchers.h>
-#import "Matcher/GREYStringDescription.h"
+#import "../Matcher/GREYStringDescription.h"
 #import "GREYBaseTest.h"
 
 #pragma mark - Test Helpers

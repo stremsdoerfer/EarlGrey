@@ -17,8 +17,8 @@
 #import <OCMock/OCMock.h>
 
 #import <EarlGrey/GREYDefines.h>
-#import "Provider/GREYElementProvider.h"
-#import "Provider/GREYUIWindowProvider.h"
+#import "../Provider/GREYElementProvider.h"
+#import "../Provider/GREYUIWindowProvider.h"
 #import "GREYBaseTest.h"
 #import "GREYUTAccessibilityViewContainerView.h"
 #import "GREYUTCustomAccessibilityView.h"

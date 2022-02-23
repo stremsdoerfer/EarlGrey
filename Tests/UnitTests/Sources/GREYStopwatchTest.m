@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Common/GREYStopwatch.h"
+#import "../Common/GREYStopwatch.h"
 #import "GREYBaseTest.h"
 
 @interface GREYStopwatchTest : XCTestCase

@@ -16,8 +16,8 @@
 
 #import <OCMock/OCMock.h>
 
-#import "Additions/UIViewController+GREYAdditions.h"
-#import "Synchronization/GREYAppStateTracker.h"
+#import "../Additions/UIViewController+GREYAdditions.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "GREYBaseTest.h"
 
 @interface GREYUIWindow_AdditionsTest : GREYBaseTest

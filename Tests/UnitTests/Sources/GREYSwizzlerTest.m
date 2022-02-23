@@ -16,7 +16,7 @@
 
 #include <objc/runtime.h>
 
-#import "Common/GREYSwizzler.h"
+#import "../Common/GREYSwizzler.h"
 #import "GREYBaseTest.h"
 
 #pragma mark - Class A (Superclass)

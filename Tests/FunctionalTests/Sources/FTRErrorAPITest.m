@@ -17,8 +17,8 @@
 #import "FTRBaseIntegrationTest.h"
 #import "FTRFailureHandler.h"
 
-#import "Common/GREYError.h"
-#import "Common/GREYErrorConstants.h"
+#import "../Common/GREYError.h"
+#import "../Common/GREYErrorConstants.h"
 
 @interface FTRErrorAPITest : FTRBaseIntegrationTest
 @end

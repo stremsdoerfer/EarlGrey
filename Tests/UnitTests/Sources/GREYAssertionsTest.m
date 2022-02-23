@@ -17,7 +17,7 @@
 #import <OCMock.h>
 
 #import <EarlGrey/GREYAssertion.h>
-#import "Assertion/GREYAssertions+Internal.h"
+#import "../Assertion/GREYAssertions+Internal.h"
 #import <EarlGrey/GREYAssertions.h>
 #import <EarlGrey/GREYElementFinder.h>
 #import <EarlGrey/GREYMatchers.h>

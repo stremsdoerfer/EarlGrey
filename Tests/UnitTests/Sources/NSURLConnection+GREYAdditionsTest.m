@@ -17,8 +17,8 @@
 #import <OCMock/OCMock.h>
 #include <objc/runtime.h>
 
-#import "Additions/NSObject+GREYAdditions.h"
-#import "Additions/NSURLConnection+GREYAdditions.h"
+#import "../Additions/NSObject+GREYAdditions.h"
+#import "../Additions/NSURLConnection+GREYAdditions.h"
 #import <EarlGrey/GREYCondition.h>
 #import <EarlGrey/GREYUIThreadExecutor.h>
 #import "GREYBaseTest.h"

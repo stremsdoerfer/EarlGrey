@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Synchronization/GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "GREYBaseTest.h"
 #import "GREYExposedForTesting.h"
 

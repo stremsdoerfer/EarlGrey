@@ -15,8 +15,8 @@
 //
 
 #import "FTRBaseIntegrationTest.h"
-#import "Additions/UIApplication+GREYAdditions.h"
-#import "Common/GREYAppleInternals.h"
+#import "../Additions/UIApplication+GREYAdditions.h"
+#import "../Common/GREYAppleInternals.h"
 #import <EarlGrey/EarlGrey.h>
 
 @interface FTRSyncAPITest : FTRBaseIntegrationTest

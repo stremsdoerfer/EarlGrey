@@ -15,7 +15,7 @@
 //
 
 #import "FTRBaseIntegrationTest.h"
-#import "Common/GREYSwizzler.h"
+#import "../Common/GREYSwizzler.h"
 #import <EarlGrey/EarlGrey.h>
 
 @implementation UIApplication (Test)

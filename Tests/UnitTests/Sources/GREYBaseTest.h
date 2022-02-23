@@ -19,7 +19,7 @@
 #import <EarlGrey/GREYAction.h>
 #import <EarlGrey/GREYActionBlock.h>
 #import <EarlGrey/GREYActions.h>
-#import <EarlGrey/GREYBaseAction.h>
+#import "GREYBaseAction.h"
 #import <EarlGrey/GREYScrollActionError.h>
 #import <EarlGrey/GREYIdlingResource.h>
 #import <EarlGrey/GREYAssertion.h>
@@ -40,7 +40,7 @@
 #import <EarlGrey/GREYFrameworkException.h>
 #import <EarlGrey/GREYAllOf.h>
 #import <EarlGrey/GREYAnyOf.h>
-#import <EarlGrey/GREYBaseMatcher.h>
+#import "../Matcher/GREYBaseMatcher.h"
 #import <EarlGrey/GREYDescription.h>
 #import <EarlGrey/GREYElementMatcherBlock.h>
 #import <EarlGrey/GREYLayoutConstraint.h>

@@ -16,7 +16,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Common/GREYError.h"
+#import "../Common/GREYError.h"
 #import "GREYBaseTest.h"
 
 @interface GREYErrorTest : GREYBaseTest

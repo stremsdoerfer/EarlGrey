@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "eDistantObject",
+        "repositoryURL": "https://github.com/stremsdoerfer/eDistantObject",
+        "state": {
+          "branch": "master",
+          "revision": "c332c0e67ac48bbbb81191db79140aca8e059b81",
+          "version": null
+        }
+      },
+      {
+        "package": "OCHamcrest",
+        "repositoryURL": "https://github.com/hamcrest/OCHamcrest",
+        "state": {
+          "branch": null,
+          "revision": "0be787c9909bf1f5e75ca421a060c5b696ea863b",
+          "version": "9.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

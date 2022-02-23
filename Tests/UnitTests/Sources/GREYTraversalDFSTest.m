@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Traversal/GREYTraversalDFS.h"
+#import "../Traversal/GREYTraversalDFS.h"
 #import "GREYBaseTest.h"
 
 @interface GREYTraversalDFSTest : GREYBaseTest

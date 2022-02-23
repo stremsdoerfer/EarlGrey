@@ -16,10 +16,10 @@
 
 #import <OCMock/OCMock.h>
 
-#import "Additions/NSString+GREYAdditions.h"
-#import "Additions/XCTestCase+GREYAdditions.h"
-#import "Common/GREYAnalytics.h"
-#import "Common/GREYAnalyticsDelegate.h"
+#import "../Additions/NSString+GREYAdditions.h"
+#import "../Additions/XCTestCase+GREYAdditions.h"
+#import "../Common/GREYAnalytics.h"
+#import "../Common/GREYAnalyticsDelegate.h"
 #import "GREYBaseTest.h"
 #import "GREYExposedForTesting.h"
 

@@ -15,8 +15,8 @@
 //
 
 #import "FTRBaseIntegrationTest.h"
-#import "Additions/CGGeometry+GREYAdditions.h"
-#import "Common/GREYVisibilityChecker.h"
+#import "../Additions/CGGeometry+GREYAdditions.h"
+#import "../Common/GREYVisibilityChecker.h"
 #import <EarlGrey/EarlGrey.h>
 
 @interface FTRVisibilityTest : FTRBaseIntegrationTest

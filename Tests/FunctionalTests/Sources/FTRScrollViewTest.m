@@ -15,7 +15,7 @@
 //
 
 #import "FTRBaseIntegrationTest.h"
-#import "Common/GREYVisibilityChecker.h"
+#import "../Common/GREYVisibilityChecker.h"
 #import <EarlGrey/EarlGrey.h>
 
 @interface FTRScrollViewTest : FTRBaseIntegrationTest

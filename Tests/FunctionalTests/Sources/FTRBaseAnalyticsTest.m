@@ -17,8 +17,8 @@
 #import "FTRBaseAnalyticsTest.h"
 
 #import "FTRAssertionHandler.h"
-#import "Common/GREYAnalytics.h"
-#import "Common/GREYAnalyticsDelegate.h"
+#import "../Common/GREYAnalytics.h"
+#import "../Common/GREYAnalyticsDelegate.h"
 #import <EarlGrey/GREYConfiguration.h>
 
 /**

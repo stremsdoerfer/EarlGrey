@@ -17,7 +17,7 @@
 #import <XCTest/XCTest.h>
 
 #import <EarlGrey/GREYAssertionDefines.h>
-#import "Synchronization/GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import <EarlGrey/GREYFailureHandler.h>
 #import <EarlGrey/EarlGreyImpl.h>
 

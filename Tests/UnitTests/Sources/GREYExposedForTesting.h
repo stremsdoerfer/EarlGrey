@@ -20,16 +20,16 @@
 #import <EarlGrey/GREYElementHierarchy.h>
 #import <EarlGrey/GREYProvider.h>
 #import <EarlGrey/GREYManagedObjectContextIdlingResource.h>
-#import "Synchronization/GREYTimedIdlingResource.h"
+#import "../Synchronization/GREYTimedIdlingResource.h"
 #import <EarlGrey/GREYUIThreadExecutor.h>
 
-#import "Additions/UIView+GREYAdditions.h"
-#import "Common/GREYAnalytics.h"
-#import "Common/GREYVisibilityChecker.h"
-#import "Synchronization/GREYAppStateTracker.h"
-#import "Synchronization/GREYAppStateTrackerObject.h"
-#import "Traversal/GREYTraversal.h"
-#import "Traversal/GREYTraversalDFS.h"
+#import "../Additions/UIView+GREYAdditions.h"
+#import "../Common/GREYAnalytics.h"
+#import "../Common/GREYVisibilityChecker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTrackerObject.h"
+#import "../Traversal/GREYTraversal.h"
+#import "../Traversal/GREYTraversalDFS.h"
 
 // Indicates the minimum scroll length required for any scroll to be detected, currently defined in
 // GREYPathGestureUtils.m.
