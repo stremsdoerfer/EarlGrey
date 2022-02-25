@@ -22,6 +22,9 @@ let package = Package(
         .library(
             name: "EarlGreyCommonLib",
             targets: ["CommonLib"]),
+        .library(
+            name: "EarlGreyUILib",
+            targets: ["UILib"]),
     ],
     dependencies: [
       .package(url: "https://github.com/stremsdoerfer/eDistantObject", .branch("master")),
