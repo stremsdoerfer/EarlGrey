@@ -240,7 +240,7 @@ static const NSTimeInterval kTouchInjectFramerateInv = 1 / 120.0;
   boolean_t isTouch =
       (touchInfo.phase != UITouchPhaseEnded) && (touchInfo.phase != UITouchPhaseCancelled) ? 1 : 0;
 
-  IOHIDEventRef hidEvent = IOHIDEventCreateDigitizerEventUpdated(
+  IOHIDEventRef hidEvent = IOHIDEventCreateDigitizerEvent(
       kCFAllocatorDefault, deliveryTime, kIOHIDDigitizerTransducerTypeHand, 1, 2, fingerEventMask,
       0, 0, 0, 0, 0, 0, isTouch, isTouch, kIOHIDEventOptionNone);
 
