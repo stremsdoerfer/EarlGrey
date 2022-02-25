@@ -1,0 +1,1 @@
+../Matcher/GREYAllOf+Private.h

@@ -1,0 +1,1 @@
+../IdlingResources/GREYManagedObjectContextIdlingResource.h
