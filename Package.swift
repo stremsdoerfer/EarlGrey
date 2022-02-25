@@ -35,7 +35,11 @@ let package = Package(
             "AppFramework",
             "CommonLib",
             "TestLib",
-          ]),
+          ],
+          cSettings: [
+            .headerSearchPath("../CommonLib/include")
+          ]
+        ),
         .target(
             name: "AppFramework",
             dependencies: [
@@ -50,6 +54,7 @@ let package = Package(
             name: "CommonLib",
             dependencies: [
               .product(name: "EDOChannel", package: "eDistantObject"),
+              .product(name: "EDOMeasure", package: "eDistantObject"),
               .product(name: "EDOService", package: "eDistantObject"),
             ],
             publicHeadersPath: "include"),
@@ -57,6 +62,7 @@ let package = Package(
             name: "TestLib",
             dependencies: [
               .product(name: "EDOChannel", package: "eDistantObject"),
+              .product(name: "EDOMeasure", package: "eDistantObject"),
               .product(name: "EDOService", package: "eDistantObject"),
             ],
             publicHeadersPath: "include"),
