@@ -14,6 +14,7 @@
 // limitations under the License.
 //
 
+@import EDOService;
 #import "GREYActions.h"
 
 #if TARGET_OS_IOS
@@ -54,7 +55,6 @@
 #import "../../CommonLib/Matcher/GREYMatcher.h"
 #import "../../UILib/GREYElementHierarchy.h"
 #import "../../UILib/GREYScreenshotter.h"
-#import "EDORemoteVariable.h"
 
 static Class gAccessibilityTextFieldElementClass;
 static SEL gTextSelector;

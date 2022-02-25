@@ -14,16 +14,11 @@
 // limitations under the License.
 //
 
+@import EDOService;
 #import <Foundation/Foundation.h>
 
 #import "../../CommonLib/GREYConstants.h"
 #import "../../CommonLib/GREYDefines.h"
-
-#if COCOAPODS
-#import <eDistantObject/EDORemoteVariable.h>
-#else
-#import "EDORemoteVariable.h"
-#endif  // COCOAPODS
 
 NS_ASSUME_NONNULL_BEGIN
 

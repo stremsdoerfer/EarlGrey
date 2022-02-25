@@ -38,7 +38,13 @@ let package = Package(
             ]),
         .target(
             name: "AppFramework",
-            dependencies: ["CommonLib", "UILib"],
+            dependencies: [
+              .product(name: "EDOChannel", package: "eDistantObject"),
+              .product(name: "EDOMeasure", package: "eDistantObject"),
+              .product(name: "EDODevice", package: "eDistantObject"),
+              "CommonLib",
+              "UILib"
+            ],
             publicHeadersPath: "include"),
         .target(
             name: "CommonLib",

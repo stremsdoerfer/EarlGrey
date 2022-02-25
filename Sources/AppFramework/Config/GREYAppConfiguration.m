@@ -14,6 +14,7 @@
 // limitations under the License.
 //
 
+@import EDOService;
 #import "GREYAppConfiguration.h"
 
 #import "../../CommonLib/Config/GREYAppState.h"
@@ -23,7 +24,6 @@
 #import "../../CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
 #import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
 #import "../../TestLib/Config/GREYTestConfiguration.h"
-#import "EDOClientService.h"
 #import "NSObject+EDOValueObject.h"
 
 GREYConfiguration *GREYCreateConfiguration(void) { return [[GREYAppConfiguration alloc] init]; }
