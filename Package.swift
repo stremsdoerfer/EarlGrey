@@ -42,7 +42,8 @@ let package = Package(
               .product(name: "EDOChannel", package: "eDistantObject"),
               .product(name: "EDOMeasure", package: "eDistantObject"),
               .product(name: "EDODevice", package: "eDistantObject"),
-              .product(name: "EDOService", package: "eDistantObject"),
+              "CommonLib",
+              "UILib"
             ],
             publicHeadersPath: "include"),
         .target(
@@ -56,10 +57,12 @@ let package = Package(
             dependencies: [
               .product(name: "EDOChannel", package: "eDistantObject"),
               .product(name: "EDOService", package: "eDistantObject"),
+              "CommonLib"
             ],
             publicHeadersPath: "include"),
         .target(
             name: "UILib",
-            dependencies: []),
+            dependencies: [
+              "CommonLib"]),
     ]
 )

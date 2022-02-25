@@ -162,7 +162,7 @@ enum {
   kIOHIDEventFieldDigitizerEstimatedMask
 };
 
-IOHIDEventRef IOHIDEventCreateDigitizerEvent(
+IOHIDEventRef IOHIDEventCreateDigitizerEventUpdated(
     CFAllocatorRef allocator, uint64_t timestamp, IOHIDDigitizerTransducerType tranducerType,
     uint32_t index, uint32_t identifier, IOHIDDigitizerEventMask eventMask, uint32_t buttonEvent,
     IOHIDFloat x, IOHIDFloat y, IOHIDFloat z, IOHIDFloat tipPressure, IOHIDFloat twist,
