@@ -69,6 +69,7 @@ let package = Package(
             publicHeadersPath: "include"),
         .target(
             name: "UILib",
-            dependencies: []),
+            dependencies: [],
+            publicHeadersPath: "include"),
     ]
 )
