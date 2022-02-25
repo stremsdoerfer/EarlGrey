@@ -18,10 +18,10 @@
 
 #import "GREYTouchInjector.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYTouchInfo.h"
-#import "GREYAppleInternals.h"
-#import "GREYUIWindowProvider.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Event/GREYTouchInfo.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../UILib/Provider/GREYUIWindowProvider.h"
 
 #pragma mark - Implementation
 

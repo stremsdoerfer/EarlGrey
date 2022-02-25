@@ -19,11 +19,11 @@
 
 
 #import "GREYMatcherUtil.h"
-#import "GREYThrowDefines.h"
-#import "GREYBaseMatcher.h"
-#import "GREYDescription.h"
-#import "GREYMatcher.h"
-#import "GREYStringDescription.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Matcher/GREYBaseMatcher.h"
+#import "../../CommonLib/Matcher/GREYDescription.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
+#import "../../CommonLib/Matcher/GREYStringDescription.h"
 
 @implementation GREYAllOf {
   NSArray<id<GREYMatcher>> *_matchers;

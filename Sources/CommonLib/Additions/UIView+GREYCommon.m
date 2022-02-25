@@ -18,7 +18,7 @@
 
 #include <objc/runtime.h>
 
-#import "GREYConstants.h"
+#import "../GREYConstants.h"
 
 @implementation UIView (GREYCommon)
 

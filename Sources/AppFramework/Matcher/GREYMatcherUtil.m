@@ -17,8 +17,8 @@
 #import "GREYMatcherUtil.h"
 
 #import "GREYVisibilityMatcher.h"
-#import "GREYFrameworkException.h"
-#import "GREYMatcher.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
 
 BOOL GREYIsVisibilityMatcher(id<GREYMatcher> matcher) {
   return [matcher isKindOfClass:[GREYVisibilityMatcher class]];

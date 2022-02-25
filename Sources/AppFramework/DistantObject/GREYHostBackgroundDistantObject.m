@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYHostBackgroundDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
 
 #import "EDOHostService.h"
 #import "EDOServicePort.h"

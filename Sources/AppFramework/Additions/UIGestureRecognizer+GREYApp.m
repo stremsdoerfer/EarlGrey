@@ -19,11 +19,11 @@
 #import <UIKit/UIGestureRecognizerSubclass.h>
 #include <objc/runtime.h>
 
-#import "GREYAppStateTracker.h"
-#import "GREYAppStateTrackerObject.h"
+#import "../Synchronization/GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTrackerObject.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 static Class gKeyboardPinchGestureRecognizerClass;
 

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYThrowDefines.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
 #import "GREYAssert+Private.h"
 
 #include <stdarg.h>

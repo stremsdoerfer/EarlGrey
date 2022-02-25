@@ -16,9 +16,9 @@
 
 #import "GREYFailureHandlerHelpers.h"
 
-#import "GREYErrorConstants.h"
-#import "GREYFrameworkException.h"
-#import "GREYElementHierarchy.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
+#import "../../UILib/GREYElementHierarchy.h"
 
 NSString *GREYAppUIHierarchyFromException(GREYFrameworkException *exception, NSString *details) {
   NSString *appUIHierarchy = [exception.userInfo valueForKey:kErrorDetailAppUIHierarchyKey];

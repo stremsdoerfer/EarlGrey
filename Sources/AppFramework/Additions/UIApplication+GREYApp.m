@@ -18,12 +18,12 @@
 
 #include <objc/runtime.h>
 
-#import "GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYAppleInternals.h"
-#import "GREYDefines.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYDefines.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 /**
  * List for all the runloop modes that have been pushed and unpopped using UIApplication's push/pop

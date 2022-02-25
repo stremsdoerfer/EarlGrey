@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYMatcher.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
 
 /**
  * @return A BOOL signifying if a matcher is related to visibility or not.

@@ -15,10 +15,10 @@
 //
 #import "GREYFailureScreenshotSaver.h"
 
-#import "NSFileManager+GREYCommon.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYError.h"
+#import "../../CommonLib/Additions/NSFileManager+GREYCommon.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/Error/GREYError.h"
 
 typedef NSDictionary<NSString *, UIImage *> *GREYScreenshotImages;
 

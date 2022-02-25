@@ -16,7 +16,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GREYHostApplicationDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
 
 /**
  * GREYHostApplicationDistantObject extension in the EarlGrey AppFramework. This file should

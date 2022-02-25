@@ -26,7 +26,7 @@
 // GREYConfiguration's configuration keys are indirectly exposed through here, to avoid users from
 // having to import the headers directly.
 #import "GREYConfigKey.h"
-#import "GREYDefines.h"
+#import "../GREYDefines.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

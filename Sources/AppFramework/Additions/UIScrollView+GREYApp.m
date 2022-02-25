@@ -19,11 +19,11 @@
 #include <objc/message.h>
 #include <objc/runtime.h>
 
-#import "GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYAppleInternals.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation UIScrollView (GREYApp)
 

@@ -16,7 +16,7 @@
 
 #import "GREYActionBlock.h"
 
-#import "GREYThrowDefines.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
 
 @implementation GREYActionBlock {
   GREYPerformBlock _performBlock;

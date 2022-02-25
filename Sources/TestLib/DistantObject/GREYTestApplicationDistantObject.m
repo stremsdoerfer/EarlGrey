@@ -14,26 +14,21 @@
 // limitations under the License.
 //
 
-#import "GREYTestApplicationDistantObject.h"
+@import EDOChannel;
+@import EDOService;
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
 
 
 #include <stdatomic.h>
 #include <stddef.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYTestApplicationDistantObject+Private.h"
-#import "GREYError.h"
-#import "GREYErrorConstants.h"
-#import "GREYFrameworkException.h"
-#import "GREYConstants.h"
-#import "GREYRemoteExecutor.h"
-#import "EDOChannel.h"
-#import "EDOChannelPool.h"
-#import "EDOHostPort.h"
-#import "EDOHostService.h"
-#import "EDOServiceError.h"
-#import "EDOServicePort.h"
-#import "NSObject+EDOBlockedType.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject+Private.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../Execution/GREYRemoteExecutor.h"
 
 
 /** Checks if main queue has eDO host service. */

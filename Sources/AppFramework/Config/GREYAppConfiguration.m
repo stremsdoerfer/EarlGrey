@@ -16,13 +16,13 @@
 
 #import "GREYAppConfiguration.h"
 
-#import "GREYAppState.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration+Private.h"
-#import "GREYConfiguration.h"
-#import "GREYHostApplicationDistantObject.h"
-#import "GREYHostBackgroundDistantObject.h"
-#import "GREYTestConfiguration.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration+Private.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
+#import "../../TestLib/Config/GREYTestConfiguration.h"
 #import "EDOClientService.h"
 #import "NSObject+EDOValueObject.h"
 

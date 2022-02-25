@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYDefines.h"
+#import "../../CommonLib/GREYDefines.h"
 
 /**
  * Utilities for waiting for the app to synchronize. Used only from within

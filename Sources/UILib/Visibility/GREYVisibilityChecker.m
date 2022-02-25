@@ -18,7 +18,7 @@
 
 #import <CoreGraphics/CoreGraphics.h>
 
-#import "CGGeometry+GREYUI.h"
+#import "../Additions/CGGeometry+GREYUI.h"
 #import "GREYQuickVisibilityChecker.h"
 #import "GREYThoroughVisibilityChecker.h"
 #import "GREYVisibilityCheckerCacheEntry.h"

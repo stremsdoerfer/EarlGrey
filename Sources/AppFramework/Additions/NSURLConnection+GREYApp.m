@@ -19,11 +19,11 @@
 #include <objc/runtime.h>
 
 #import "NSURL+GREYApp.h"
-#import "GREYNSURLConnectionDelegate.h"
-#import "GREYAppStateTracker.h"
+#import "../Delegate/GREYNSURLConnectionDelegate.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 typedef void (^NSURLConnectionCompletionBlock)(NSURLResponse *, NSData *, NSError *);
 

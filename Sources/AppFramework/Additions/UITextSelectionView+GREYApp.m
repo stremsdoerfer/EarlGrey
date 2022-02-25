@@ -17,9 +17,9 @@
 #import "UITextSelectionView+GREYApp.h"
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppleInternals.h"
-#import "GREYDefines.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYDefines.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation UITextSelectionView_GREYApp
 

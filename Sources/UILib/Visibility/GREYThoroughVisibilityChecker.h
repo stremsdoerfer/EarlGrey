@@ -16,7 +16,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GREYConstants.h"
+#import "../../CommonLib/GREYConstants.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

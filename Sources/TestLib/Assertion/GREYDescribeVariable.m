@@ -15,8 +15,8 @@
 //
 
 #import "GREYDescribeVariable.h"
-#import "GREYThrowDefines.h"
-#import "GREYDefines.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/GREYDefines.h"
 
 #include <ctype.h>
 #include <objc/runtime.h>

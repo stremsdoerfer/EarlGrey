@@ -16,12 +16,12 @@
 
 #import "GREYFailureScreenshotter.h"
 
-#import "GREYSyncAPI.h"
-#import "GREYError.h"
-#import "GREYScreenshotter+Private.h"
-#import "GREYScreenshotter.h"
-#import "GREYVisibilityChecker+Private.h"
-#import "GREYVisibilityChecker.h"
+#import "../Synchronization/GREYSyncAPI.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../UILib/GREYScreenshotter+Private.h"
+#import "../../UILib/GREYScreenshotter.h"
+#import "../../UILib/Visibility/GREYVisibilityChecker+Private.h"
+#import "../../UILib/Visibility/GREYVisibilityChecker.h"
 
 @implementation GREYFailureScreenshotter
 

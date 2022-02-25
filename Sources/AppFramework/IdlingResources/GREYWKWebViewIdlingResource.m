@@ -17,8 +17,8 @@
 #import "GREYWKWebViewIdlingResource.h"
 
 #if TARGET_OS_IOS
-#import "GREYUIThreadExecutor+Private.h"
-#import "GREYUIThreadExecutor.h"
+#import "../Synchronization/GREYUIThreadExecutor+Private.h"
+#import "../Synchronization/GREYUIThreadExecutor.h"
 
 @implementation GREYWKWebViewIdlingResource {
   __weak WKWebView *_webView;

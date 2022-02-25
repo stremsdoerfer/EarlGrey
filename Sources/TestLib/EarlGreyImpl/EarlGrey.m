@@ -16,21 +16,21 @@
 
 #import "EarlGrey.h"
 
-#import "GREYSyntheticEvents.h"
-#import "GREYKeyboard.h"
-#import "GREYUIThreadExecutor.h"
-#import "GREYConfigKey.h"
-#import "GREYTestApplicationDistantObject+Private.h"
-#import "GREYError.h"
-#import "GREYAppleInternals.h"
+#import "../../AppFramework/Event/GREYSyntheticEvents.h"
+#import "../../AppFramework/Keyboard/GREYKeyboard.h"
+#import "../../AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject+Private.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/GREYAppleInternals.h"
 
-#import "GREYWaitFunctions.h"
+#import "../Assertion/GREYWaitFunctions.h"
 
 #import "GREYElementInteractionErrorHandler.h"
 #import "GREYElementInteractionProxy.h"
-#import "GREYRemoteExecutor.h"
-#import "GREYDefaultFailureHandler.h"
-#import "XCTestCase+GREYTest.h"
+#import "../Execution/GREYRemoteExecutor.h"
+#import "../FailureHandler/GREYDefaultFailureHandler.h"
+#import "../XCTestCase/XCTestCase+GREYTest.h"
 
 // In tvOS, this var becomes unused.
 #if TARGET_OS_IOS

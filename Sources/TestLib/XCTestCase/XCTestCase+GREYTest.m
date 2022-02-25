@@ -19,11 +19,11 @@
 #include <objc/runtime.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYTestApplicationDistantObject+Private.h"
-#import "GREYTestApplicationDistantObject.h"
-#import "GREYError.h"
-#import "GREYSwizzler.h"
-#import "GREYFailureScreenshotSaver.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject+Private.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/GREYSwizzler.h"
+#import "../Exception/GREYFailureScreenshotSaver.h"
 #import "GREYTestCaseInvocation.h"
 
 /**

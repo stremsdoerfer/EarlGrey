@@ -16,12 +16,12 @@
 
 #import "GREYElementHierarchy.h"
 
-#import "../CommonLib/NSObject+GREYCommon.h"
-#import "../CommonLib/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYUIWindowProvider.h"
-#import "GREYTraversalDFS.h"
-#import "GREYTraversalObject.h"
+#import "../CommonLib/Additions/NSObject+GREYCommon.h"
+#import "../CommonLib/Assertion/GREYFatalAsserts.h"
+#import "../CommonLib/Assertion/GREYThrowDefines.h"
+#import "Provider/GREYUIWindowProvider.h"
+#import "Traversal/GREYTraversalDFS.h"
+#import "Traversal/GREYTraversalObject.h"
 
 @implementation GREYElementHierarchy
 

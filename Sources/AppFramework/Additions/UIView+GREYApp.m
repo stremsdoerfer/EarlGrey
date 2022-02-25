@@ -18,16 +18,16 @@
 
 #include <objc/runtime.h>
 
-#import "GREYTimedIdlingResource.h"
-#import "GREYAppStateTracker.h"
-#import "UIView+GREYCommon.h"
+#import "../IdlingResources/GREYTimedIdlingResource.h"
+#import "../Synchronization/GREYAppStateTracker.h"
+#import "../../CommonLib/Additions/UIView+GREYCommon.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYAppleInternals.h"
-#import "GREYDefines.h"
-#import "GREYLogger.h"
-#import "GREYSwizzler.h"
-#import "GREYElementProvider.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYDefines.h"
+#import "../../CommonLib/GREYLogger.h"
+#import "../../CommonLib/GREYSwizzler.h"
+#import "../../UILib/Provider/GREYElementProvider.h"
 
 /** Typedef for the wrapper for the animation method's completion block. */
 typedef void (^GREYAnimationCompletionBlock)(BOOL);

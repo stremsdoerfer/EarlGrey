@@ -19,20 +19,20 @@
 #include <tgmath.h>
 
 #import "GREYPathGestureUtils.h"
-#import "GREYAppError.h"
-#import "GREYFailureScreenshotter.h"
-#import "GREYSyntheticEvents.h"
-#import "GREYAllOf.h"
-#import "GREYMatchers.h"
-#import "GREYSyncAPI.h"
+#import "../Error/GREYAppError.h"
+#import "../Error/GREYFailureScreenshotter.h"
+#import "../Event/GREYSyntheticEvents.h"
+#import "../Matcher/GREYAllOf.h"
+#import "../Matcher/GREYMatchers.h"
+#import "../Synchronization/GREYSyncAPI.h"
 #import "../../CommonLib/Additions/NSObject+GREYCommon.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYError.h"
-#import "GREYErrorConstants.h"
-#import "GREYConstants.h"
-#import "GREYDiagnosable.h"
-#import "GREYElementHierarchy.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../../CommonLib/GREYDiagnosable.h"
+#import "../../UILib/GREYElementHierarchy.h"
 
 /**
  * Reduce the magnitude of vector in the direction of pinch action to make sure that it is minimum

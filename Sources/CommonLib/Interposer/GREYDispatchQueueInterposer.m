@@ -18,8 +18,8 @@
 
 #include <stdatomic.h>
 
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
+#import "../Config/GREYConfigKey.h"
+#import "../Config/GREYConfiguration.h"
 
 // DYLD_INTERPOSE referenced from
 // https://opensource.apple.com/source/dyld/dyld-210.2.3/include/mach-o/dyld-interposing.h.

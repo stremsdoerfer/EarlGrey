@@ -18,11 +18,11 @@
 
 #import <XCTest/XCTest.h>
 
-#import "GREYAssertionDefinesPrivate.h"
-#import "GREYError.h"
-#import "GREYErrorConstants.h"
-#import "GREYFailureHandler.h"
-#import "GREYFrameworkException.h"
+#import "../../CommonLib/Assertion/GREYAssertionDefinesPrivate.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/Exceptions/GREYFailureHandler.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
 
 
 /**

@@ -16,18 +16,18 @@
 
 #import "GREYAssertions.h"
 
-#import "GREYAppError.h"
-#import "GREYFailureScreenshotter.h"
+#import "../Error/GREYAppError.h"
+#import "../Error/GREYFailureScreenshotter.h"
 #import "../../CommonLib/Additions/NSObject+GREYCommon.h"
-#import "GREYAssertionBlock+Private.h"
-#import "GREYAssertionBlock.h"
+#import "../../CommonLib/Assertion/GREYAssertionBlock+Private.h"
+#import "../../CommonLib/Assertion/GREYAssertionBlock.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYError.h"
-#import "GREYErrorConstants.h"
-#import "GREYDiagnosable.h"
-#import "GREYMatcher.h"
-#import "GREYStringDescription.h"
-#import "GREYElementHierarchy.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/GREYDiagnosable.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
+#import "../../CommonLib/Matcher/GREYStringDescription.h"
+#import "../../UILib/GREYElementHierarchy.h"
 
 @implementation GREYAssertions
 

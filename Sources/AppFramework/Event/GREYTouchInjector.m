@@ -21,10 +21,10 @@
 #include <objc/runtime.h>
 
 #import "GREYIOHIDEventTypes.h"
-#import "GREYRunLoopSpinner.h"
+#import "../Synchronization/GREYRunLoopSpinner.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYTouchInfo.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Event/GREYTouchInfo.h"
 
 /**
  * The time interval in seconds between each touch injection.

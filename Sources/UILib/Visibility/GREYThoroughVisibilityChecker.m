@@ -19,12 +19,12 @@
 #include <CoreGraphics/CoreGraphics.h>
 
 #import "../../CommonLib/Additions/NSObject+GREYCommon.h"
-#import "UIView+GREYCommon.h"
+#import "../../CommonLib/Additions/UIView+GREYCommon.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYLogger.h"
-#import "CGGeometry+GREYUI.h"
-#import "GREYScreenshotter+Private.h"
-#import "GREYScreenshotter.h"
+#import "../../CommonLib/GREYLogger.h"
+#import "../Additions/CGGeometry+GREYUI.h"
+#import "../GREYScreenshotter+Private.h"
+#import "../GREYScreenshotter.h"
 #import "GREYVisibilityChecker.h"
 
 static const NSUInteger kColorChannelsPerPixel = 4;

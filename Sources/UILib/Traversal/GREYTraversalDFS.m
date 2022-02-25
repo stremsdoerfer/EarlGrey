@@ -16,7 +16,7 @@
 
 #import "GREYTraversalDFS.h"
 
-#import "GREYThrowDefines.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
 #import "GREYTraversalFunctions.h"
 #import "GREYTraversalObject.h"
 

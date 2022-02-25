@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "GREYHostBackgroundDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
 
-#import "GREYElementInteraction.h"
-#import "GREYMatcher.h"
+#import "../Core/GREYElementInteraction.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
 
 /**
  * GREYHostBackgroundDistantObject extension in the EarlGrey AppFramework. This file should

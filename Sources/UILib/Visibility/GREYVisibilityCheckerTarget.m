@@ -17,11 +17,11 @@
 #import "GREYVisibilityCheckerTarget.h"
 
 #import "../../CommonLib/Additions/NSObject+GREYCommon.h"
-#import "UIView+GREYCommon.h"
-#import "GREYConstants.h"
-#import "CGGeometry+GREYUI.h"
-#import "GREYTraversalObject.h"
-#import "GREYTraversalProperties.h"
+#import "../../CommonLib/Additions/UIView+GREYCommon.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../Additions/CGGeometry+GREYUI.h"
+#import "../Traversal/GREYTraversalObject.h"
+#import "../Traversal/GREYTraversalProperties.h"
 #import "GREYVisibilityChecker.h"
 
 /**

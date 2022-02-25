@@ -15,9 +15,9 @@
 //
 
 #import "GREYRemoteExecutor.h"
+@import EDOService;
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "EDOHostService.h"
 
 void GREYExecuteSyncBlockInBackgroundQueue(void (^block)(void)) {
   GREYFatalAssertMainThread();

@@ -18,13 +18,13 @@
 
 #include <objc/runtime.h>
 
-#import "GREYTimedIdlingResource.h"
-#import "GREYSyncAPI.h"
+#import "../IdlingResources/GREYTimedIdlingResource.h"
+#import "../Synchronization/GREYSyncAPI.h"
 #import "../../CommonLib/Additions/NSObject+GREYCommon.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation NSObject (GREYApp)
 

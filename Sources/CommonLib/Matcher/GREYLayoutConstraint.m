@@ -16,7 +16,7 @@
 
 #import "GREYLayoutConstraint.h"
 
-#import "GREYConstants.h"
+#import "../GREYConstants.h"
 
 static NSString *const kGREYLayoutConstraintAttribute = @"attribute";
 static NSString *const kGREYLayoutConstraintRelation = @"relation";

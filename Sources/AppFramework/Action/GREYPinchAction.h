@@ -15,7 +15,7 @@
 //
 
 #import "GREYBaseAction.h"
-#import "GREYConstants.h"
+#import "../../CommonLib/GREYConstants.h"
 
 /**
  * A @c GREYAction that performs the pinch gesture on the view on which it is called.

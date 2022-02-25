@@ -19,13 +19,13 @@
 #include <dlfcn.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYConfiguration.h"
-#import "GREYTestApplicationDistantObject+Private.h"
-#import "GREYTestApplicationDistantObject.h"
-#import "GREYLogger.h"
-#import "GREYSwizzler.h"
-#import "GREYTestConfiguration.h"
-#import "XCUIApplication+GREYEnvironment.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject+Private.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "../../CommonLib/GREYLogger.h"
+#import "../../CommonLib/GREYSwizzler.h"
+#import "../Config/GREYTestConfiguration.h"
+#import "../XCTestCase/XCUIApplication+GREYEnvironment.h"
 
 #if !(TARGET_IPHONE_SIMULATOR)
 /**

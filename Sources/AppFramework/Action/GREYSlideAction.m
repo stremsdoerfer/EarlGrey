@@ -18,20 +18,20 @@
 
 #include <tgmath.h>
 
-#import "GREYAppError.h"
-#import "GREYFailureScreenshotter.h"
-#import "GREYSyntheticEvents.h"
-#import "GREYAllOf.h"
-#import "GREYMatchers.h"
-#import "GREYSyncAPI.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYError.h"
-#import "GREYErrorConstants.h"
-#import "GREYDiagnosable.h"
-#import "GREYLogger.h"
-#import "GREYMatcher.h"
-#import "GREYElementHierarchy.h"
+#import "../Error/GREYAppError.h"
+#import "../Error/GREYFailureScreenshotter.h"
+#import "../Event/GREYSyntheticEvents.h"
+#import "../Matcher/GREYAllOf.h"
+#import "../Matcher/GREYMatchers.h"
+#import "../Synchronization/GREYSyncAPI.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/GREYDiagnosable.h"
+#import "../../CommonLib/GREYLogger.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
+#import "../../UILib/GREYElementHierarchy.h"
 
 @implementation GREYSlideAction {
   /**

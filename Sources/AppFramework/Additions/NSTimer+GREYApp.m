@@ -16,11 +16,11 @@
 
 #import "NSTimer+GREYApp.h"
 
-#import "GREYNSTimerIdlingResource.h"
+#import "../IdlingResources/GREYNSTimerIdlingResource.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation NSTimer (GREYApp)
 

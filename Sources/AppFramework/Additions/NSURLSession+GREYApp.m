@@ -20,9 +20,9 @@
 
 #import "__NSCFLocalDataTask_GREYApp.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYDefines.h"
-#import "GREYObjcRuntime.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/GREYDefines.h"
+#import "../../CommonLib/GREYObjcRuntime.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 /**
  * Type of the handlers used as NSURLSessionTask's completion blocks.

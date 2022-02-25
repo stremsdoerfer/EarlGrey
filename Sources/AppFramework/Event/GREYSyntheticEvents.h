@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYDefines.h"
+#import "../../CommonLib/GREYDefines.h"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

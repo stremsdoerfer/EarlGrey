@@ -18,12 +18,12 @@
 
 #include <objc/runtime.h>
 
-#import "GREYThrowDefines.h"
-#import "GREYTestApplicationDistantObject.h"
-#import "GREYErrorConstants.h"
-#import "GREYAppleInternals.h"
-#import "GREYAssertionDefines.h"
-#import "GREYCondition.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../Assertion/GREYAssertionDefines.h"
+#import "../Condition/GREYCondition.h"
 
 /**
  * Text denoting part of the Camera System Alert.

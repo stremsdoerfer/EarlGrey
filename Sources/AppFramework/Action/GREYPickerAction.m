@@ -16,18 +16,18 @@
 
 #import "GREYPickerAction.h"
 
-#import "UIView+GREYApp.h"
-#import "GREYAppError.h"
-#import "GREYFailureScreenshotter.h"
-#import "GREYTimedIdlingResource.h"
-#import "GREYAllOf.h"
-#import "GREYMatchers.h"
-#import "GREYSyncAPI.h"
-#import "GREYError.h"
-#import "GREYErrorConstants.h"
-#import "GREYDiagnosable.h"
-#import "GREYMatcher.h"
-#import "GREYElementHierarchy.h"
+#import "../Additions/UIView+GREYApp.h"
+#import "../Error/GREYAppError.h"
+#import "../Error/GREYFailureScreenshotter.h"
+#import "../IdlingResources/GREYTimedIdlingResource.h"
+#import "../Matcher/GREYAllOf.h"
+#import "../Matcher/GREYMatchers.h"
+#import "../Synchronization/GREYSyncAPI.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/GREYDiagnosable.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
+#import "../../UILib/GREYElementHierarchy.h"
 
 @implementation GREYPickerAction {
   /**

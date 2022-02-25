@@ -19,11 +19,11 @@
 #import <UIKit/UIKit.h>
 
 #import "../../CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CGGeometry+GREYUI.h"
-#import "GREYUIWindowProvider.h"
-#import "GREYTraversalDFS.h"
-#import "GREYTraversalFunctions.h"
-#import "GREYTraversalObject.h"
+#import "../Additions/CGGeometry+GREYUI.h"
+#import "../Provider/GREYUIWindowProvider.h"
+#import "../Traversal/GREYTraversalDFS.h"
+#import "../Traversal/GREYTraversalFunctions.h"
+#import "../Traversal/GREYTraversalObject.h"
 #import "GREYVisibilityCheckerTarget.h"
 
 @implementation GREYQuickVisibilityChecker

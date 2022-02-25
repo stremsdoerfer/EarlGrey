@@ -16,10 +16,10 @@
 
 #import "GREYWaitFunctions.h"
 
-#import "GREYUIThreadExecutor.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYRemoteExecutor.h"
+#import "../../AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../Execution/GREYRemoteExecutor.h"
 
 BOOL GREYWaitForAppToIdleWithError(NSError **waitError) {
   CFTimeInterval interactionTimeout = GREY_CONFIG_DOUBLE(kGREYConfigKeyInteractionTimeoutDuration);

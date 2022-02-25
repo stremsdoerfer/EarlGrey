@@ -18,14 +18,14 @@
 
 #import <XCTest/XCTest.h>
 
-#import "GREYFailureScreenshotter.h"
+#import "../../AppFramework/Error/GREYFailureScreenshotter.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYErrorConstants.h"
-#import "GREYFrameworkException.h"
-#import "GREYFailureHandlerHelpers.h"
-#import "GREYFailureScreenshotSaver.h"
-#import "XCTestCase+GREYTest.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Error/GREYErrorConstants.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
+#import "../Exception/GREYFailureHandlerHelpers.h"
+#import "../Exception/GREYFailureScreenshotSaver.h"
+#import "../XCTestCase/XCTestCase+GREYTest.h"
 
 /** Counter that is incremented each time a failure occurs in an unknown test. */
 @implementation GREYDefaultFailureHandler {

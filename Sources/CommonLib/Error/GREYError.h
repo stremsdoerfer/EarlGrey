@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 
 #import "GREYErrorConstants.h"
-#import "GREYDefines.h"
+#import "../GREYDefines.h"
 
 @class GREYError;
 

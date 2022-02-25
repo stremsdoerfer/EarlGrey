@@ -20,7 +20,7 @@
 
 #include <mach/mach_time.h>
 
-#import "GREYThrowDefines.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
 
 @implementation GREYCondition {
   BOOL (^_conditionBlock)(void);

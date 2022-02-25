@@ -24,18 +24,18 @@
  */
 
 // Action Headers.
-#import "GREYAction.h"
-#import "GREYActionBlock.h"
-#import "GREYActions.h"
+#import "/Action/GREYAction.h"
+#import "/Action/GREYActionBlock.h"
+#import "/Action/GREYActions.h"
 
 // Assertion Headers
-#import "GREYAssertions.h"
-#import "GREYAssertionBlock.h"
+#import "/Assertion/GREYAssertions.h"
+#import "../CommonLib/Assertion/GREYAssertionBlock.h"
 
 // Matcher Headers.
-#import "GREYMatchers.h"
-#import "GREYElementMatcherBlock.h"
+#import "/Matcher/GREYMatchers.h"
+#import "../CommonLib/Matcher/GREYElementMatcherBlock.h"
 
 // Synchronization Headers.
-#import "GREYSyncAPI.h"
-#import "GREYUIThreadExecutor.h"
+#import "/Synchronization/GREYSyncAPI.h"
+#import "/Synchronization/GREYUIThreadExecutor.h"

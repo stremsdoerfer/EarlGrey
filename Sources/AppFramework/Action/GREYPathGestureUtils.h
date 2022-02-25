@@ -16,7 +16,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GREYConstants.h"
+#import "../../CommonLib/GREYConstants.h"
 
 /**
  * A utility class for creating and injecting gestures that involve touch paths, for example:

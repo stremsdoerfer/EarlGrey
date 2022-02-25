@@ -15,7 +15,7 @@
 //
 
 #import "NSObject+GREYCommon.h"
-#import "GREYConstants.h"
+#import "../GREYConstants.h"
 
 @implementation NSObject (GREYCommon)
 

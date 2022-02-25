@@ -19,14 +19,14 @@
 #include <objc/runtime.h>
 #include <pthread.h>
 
-#import "NSObject+GREYApp.h"
+#import "../Additions/NSObject+GREYApp.h"
 #import "GREYAppStateTrackerObject.h"
 #import "GREYObjectDeallocationTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYLogger.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYLogger.h"
 
 /**
  * Enum to specify the type of operation that is being performed on an object.

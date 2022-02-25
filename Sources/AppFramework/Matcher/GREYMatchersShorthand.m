@@ -19,7 +19,7 @@
 #import "GREYAllOf.h"
 #import "GREYAnyOf.h"
 #import "GREYMatchers.h"
-#import "GREYMatcher.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
 
 #if !defined(GREY_DISABLE_SHORTHAND) || !(GREY_DISABLE_SHORTHAND)
 

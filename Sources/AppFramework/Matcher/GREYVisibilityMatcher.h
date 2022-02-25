@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYElementMatcherBlock.h"
+#import "../../CommonLib/Matcher/GREYElementMatcherBlock.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

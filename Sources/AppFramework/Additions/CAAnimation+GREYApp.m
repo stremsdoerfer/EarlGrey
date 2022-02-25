@@ -19,11 +19,11 @@
 #include <objc/runtime.h>
 
 #import "NSObject+GREYApp.h"
-#import "GREYCAAnimationDelegate.h"
-#import "GREYAppStateTracker.h"
+#import "../Delegate/GREYCAAnimationDelegate.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation CAAnimation (GREYApp)
 

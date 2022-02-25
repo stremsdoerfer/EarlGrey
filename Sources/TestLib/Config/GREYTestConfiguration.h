@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYConfiguration.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -16,7 +16,7 @@
 
 #import "GREYDataEnumerator.h"
 
-#import "GREYThrowDefines.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
 
 @implementation GREYDataEnumerator {
   id (^_nextObjectBlock)(id);

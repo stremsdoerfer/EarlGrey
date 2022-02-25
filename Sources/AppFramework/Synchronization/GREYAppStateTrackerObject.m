@@ -16,7 +16,7 @@
 
 #import "GREYAppStateTrackerObject.h"
 
-#import "GREYAppState.h"
+#import "../../CommonLib/Config/GREYAppState.h"
 
 @implementation GREYAppStateTrackerObject {
   NSArray<NSString *> *_callstack;

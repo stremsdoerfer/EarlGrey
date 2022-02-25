@@ -17,9 +17,9 @@
 
 #include <objc/runtime.h>
 
-#import "GREYWKWebViewNavigationDelegate.h"
+#import "../Delegate/GREYWKWebViewNavigationDelegate.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 #if TARGET_OS_IOS
 #import <WebKit/WebKit.h>

@@ -18,8 +18,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GREYAppleInternals.h"
-#import "GREYConstants.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYConstants.h"
 
 /** Internal class for checking textfield ax elements. */
 static Class gAccessibilityTextFieldElementClass;

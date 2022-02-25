@@ -16,8 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYAssertion.h"
-#import "GREYMatcher.h"
+#import "../../CommonLib/Assertion/GREYAssertion.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
 
 /**
  * An interface that exposes UI element assertions.

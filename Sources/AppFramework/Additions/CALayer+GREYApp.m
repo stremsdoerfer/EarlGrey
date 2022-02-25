@@ -19,13 +19,13 @@
 #include <objc/message.h>
 
 #import "CAAnimation+GREYApp.h"
-#import "GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYLogger.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYLogger.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation CALayer (GREYApp)
 

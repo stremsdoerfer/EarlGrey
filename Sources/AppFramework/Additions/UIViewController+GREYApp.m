@@ -18,13 +18,13 @@
 
 #include <objc/runtime.h>
 
-#import "GREYAppStateTracker.h"
+#import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYAppleInternals.h"
-#import "GREYDefines.h"
-#import "GREYLogger.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYDefines.h"
+#import "../../CommonLib/GREYLogger.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 /**
  * The class for UICompatibilityInputViewController and UIEditingOverlayViewControllerwhich isn't

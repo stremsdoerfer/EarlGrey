@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYDefines.h"
+#import "../../CommonLib/GREYDefines.h"
 
 /**
  * @file

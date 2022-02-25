@@ -17,7 +17,7 @@
 #import "GREYUIWindowProvider.h"
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppleInternals.h"
+#import "../../CommonLib/GREYAppleInternals.h"
 
 UIWindow *GREYGetApplicationKeyWindow(UIApplication *application) {
   // New API only available on Xcode 13+

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYProvider.h"
+#import "../../CommonLib/Provider/GREYProvider.h"
 
 #import <Foundation/Foundation.h>
 

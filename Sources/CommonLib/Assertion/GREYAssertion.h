@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYDiagnosable.h"
+#import "../GREYDiagnosable.h"
 
 /**
  * Protocol to which EarlGrey assertion classes must conform.

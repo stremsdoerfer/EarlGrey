@@ -22,24 +22,24 @@
 #include <objc/runtime.h>
 #include <tgmath.h>
 
-#import "UISwitch+GREYApp.h"
-#import "GREYElementFinder.h"
+#import "../Additions/UISwitch+GREYApp.h"
+#import "../Core/GREYElementFinder.h"
 #import "GREYAllOf+Private.h"
 #import "GREYAllOf.h"
 #import "GREYAnyOf.h"
 #import "GREYVisibilityMatcher.h"
-#import "GREYSyncAPI.h"
-#import "GREYThrowDefines.h"
-#import "GREYAppleInternals.h"
-#import "GREYConstants.h"
-#import "GREYDiagnosable.h"
-#import "GREYDescription.h"
-#import "GREYElementMatcherBlock+Private.h"
-#import "GREYElementMatcherBlock.h"
-#import "GREYLayoutConstraint.h"
-#import "GREYMatcher.h"
-#import "GREYElementProvider.h"
-#import "GREYUIWindowProvider.h"
+#import "../Synchronization/GREYSyncAPI.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/GREYAppleInternals.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../../CommonLib/GREYDiagnosable.h"
+#import "../../CommonLib/Matcher/GREYDescription.h"
+#import "../../CommonLib/Matcher/GREYElementMatcherBlock+Private.h"
+#import "../../CommonLib/Matcher/GREYElementMatcherBlock.h"
+#import "../../CommonLib/Matcher/GREYLayoutConstraint.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
+#import "../../UILib/Provider/GREYElementProvider.h"
+#import "../../UILib/Provider/GREYUIWindowProvider.h"
 
 // Expose method for EDOObject as it's not a public class.
 @interface NSObject (GREYExposed)

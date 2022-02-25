@@ -15,16 +15,16 @@
 //
 
 #import "GREYTestConfiguration.h"
+@import EDOService;
 
-#import "GREYAppConfiguration.h"
+#import "../../AppFramework/Config/GREYAppConfiguration.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYAppState.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration+Private.h"
-#import "GREYConfiguration.h"
-#import "GREYLogger.h"
-#import "NSObject+EDOValueObject.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration+Private.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYLogger.h"
 
 GREYConfiguration *GREYCreateConfiguration(void) { return [[GREYTestConfiguration alloc] init]; }
 

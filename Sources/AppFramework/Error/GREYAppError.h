@@ -16,11 +16,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYDefines.h"
+#import "../../CommonLib/GREYDefines.h"
 
 #import "GREYFailureScreenshotter.h"
-#import "GREYError.h"
-#import "GREYElementHierarchy.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../../UILib/GREYElementHierarchy.h"
 
 /**
  * Creates a @c GREYError object on the app side with given @c domain, @c code and

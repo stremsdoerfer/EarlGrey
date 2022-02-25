@@ -14,25 +14,19 @@
 // limitations under the License.
 //
 
-#import "GREYHostApplicationDistantObject.h"
+@import EDOChannel;
+@import EDOService;
+#import "../../CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
 
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYHostBackgroundDistantObject.h"
-#import "GREYTestApplicationDistantObject+Private.h"
-#import "GREYTestApplicationDistantObject.h"
-#import "GREYFrameworkException.h"
-#import "GREYConstants.h"
-#import "EDOChannel.h"
-#import "EDOHostPort.h"
-#import "EDOSocket.h"
-#import "EDOSocketChannel.h"
-#import "EDOSocketPort.h"
-#import "EDOHostService.h"
-#import "EDOServiceError.h"
-#import "EDOServicePort.h"
+#import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject+Private.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
+#import "../../CommonLib/GREYConstants.h"
 
 /** The port number for the app under test. */
 static uint16_t gGREYPortForTestApplication = 0;

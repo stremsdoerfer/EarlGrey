@@ -17,7 +17,7 @@
 #import "GREYWKWebViewNavigationDelegate.h"
 
 #if TARGET_OS_IOS
-#import "GREYWKWebViewIdlingResource.h"
+#import "../IdlingResources/GREYWKWebViewIdlingResource.h"
 
 @implementation GREYWKWebViewNavigationDelegate {
   __weak GREYWKWebViewIdlingResource *_idlingResource;

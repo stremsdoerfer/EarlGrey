@@ -16,8 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYConstants.h"
-#import "GREYDefines.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../../CommonLib/GREYDefines.h"
 
 #if COCOAPODS
 #import <eDistantObject/EDORemoteVariable.h>

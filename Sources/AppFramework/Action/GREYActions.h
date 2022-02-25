@@ -14,16 +14,11 @@
 // limitations under the License.
 //
 
+@import EDOService;
 #import <Foundation/Foundation.h>
 
-#import "GREYConstants.h"
-#import "GREYDefines.h"
-
-#if COCOAPODS
-#import <eDistantObject/EDORemoteVariable.h>
-#else
-#import "EDORemoteVariable.h"
-#endif  // COCOAPODS
+#import "../../CommonLib/GREYConstants.h"
+#import "../../CommonLib/GREYDefines.h"
 
 @protocol GREYAction;
 

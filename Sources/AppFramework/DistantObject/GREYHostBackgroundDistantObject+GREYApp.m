@@ -16,7 +16,7 @@
 
 #import "GREYHostBackgroundDistantObject+GREYApp.h"
 
-#import "GREYElementInteraction.h"
+#import "../Core/GREYElementInteraction.h"
 
 @implementation GREYHostBackgroundDistantObject (GREYApp)
 

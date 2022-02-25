@@ -16,8 +16,8 @@
 
 #import "EarlGreyImpl+XCUIApplication.h"
 
-#import "GREYError.h"
-#import "GREYXCTestAppleInternals.h"
+#import "../../CommonLib/Error/GREYError.h"
+#import "../AppleInternals/GREYXCTestAppleInternals.h"
 #import "EarlGrey.h"
 
 // In tvOS, this var becomes unused.

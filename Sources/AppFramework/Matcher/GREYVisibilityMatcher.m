@@ -4,12 +4,12 @@
 #import <UIKit/UIKit.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYDiagnosable.h"
-#import "GREYDescription.h"
-#import "GREYElementMatcherBlock+Private.h"
-#import "GREYElementMatcherBlock.h"
-#import "CGGeometry+GREYUI.h"
-#import "GREYVisibilityChecker.h"
+#import "../../CommonLib/GREYDiagnosable.h"
+#import "../../CommonLib/Matcher/GREYDescription.h"
+#import "../../CommonLib/Matcher/GREYElementMatcherBlock+Private.h"
+#import "../../CommonLib/Matcher/GREYElementMatcherBlock.h"
+#import "../../UILib/Additions/CGGeometry+GREYUI.h"
+#import "../../UILib/Visibility/GREYVisibilityChecker.h"
 
 // The minimum percentage of an element's accessibility frame that must be visible before EarlGrey
 // considers the element to be sufficiently visible.

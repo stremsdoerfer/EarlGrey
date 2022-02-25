@@ -16,7 +16,7 @@
 //
 
 #import "GREYError.h"
-#import "GREYDefines.h"
+#import "../GREYDefines.h"
 
 /**
  * @file GREYError+Private.h

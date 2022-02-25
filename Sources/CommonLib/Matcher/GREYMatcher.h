@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYDiagnosable.h"
+#import "../GREYDiagnosable.h"
 #import "GREYDescription.h"
 
 /**

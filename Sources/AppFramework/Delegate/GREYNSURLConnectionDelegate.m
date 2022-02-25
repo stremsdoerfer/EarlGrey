@@ -16,7 +16,7 @@
 
 #import "GREYNSURLConnectionDelegate.h"
 
-#import "NSURLConnection+GREYApp.h"
+#import "../Additions/NSURLConnection+GREYApp.h"
 
 @implementation GREYNSURLConnectionDelegate
 

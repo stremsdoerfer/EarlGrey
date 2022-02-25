@@ -21,9 +21,9 @@
 #import "NSURL+GREYApp.h"
 #import "../Synchronization/GREYAppStateTracker.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYAppState.h"
-#import "GREYObjcRuntime.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYAppState.h"
+#import "../../CommonLib/GREYObjcRuntime.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation __NSCFLocalDataTask_GREYApp
 

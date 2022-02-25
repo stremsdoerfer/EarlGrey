@@ -15,6 +15,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@import EDOService;
 
 // Use modular imports for CocoaPods release.
 // #import <eDistantObject/EDOClientService.h>

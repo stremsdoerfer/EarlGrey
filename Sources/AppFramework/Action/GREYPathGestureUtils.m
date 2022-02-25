@@ -18,10 +18,10 @@
 
 #include <objc/message.h>
 
-#import "GREYThrowDefines.h"
-#import "GREYConstants.h"
-#import "CGGeometry+GREYUI.h"
-#import "GREYVisibilityChecker.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../../UILib/Additions/CGGeometry+GREYUI.h"
+#import "../../UILib/Visibility/GREYVisibilityChecker.h"
 
 /**
  * Refers to the minimum 10 points of scroll that is required for any scroll to be detected.

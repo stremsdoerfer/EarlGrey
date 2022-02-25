@@ -19,10 +19,10 @@
 #include <objc/runtime.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYLogger.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYLogger.h"
 
 @implementation NSURL (GREYApp)
 

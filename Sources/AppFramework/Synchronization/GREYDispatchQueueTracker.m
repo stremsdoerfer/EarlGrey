@@ -17,15 +17,15 @@
 #import "GREYDispatchQueueTracker.h"
 
 #include <dlfcn.h>
-#include <fishhook.h>
+#include "fishhook.h"
 #include <libkern/OSAtomic.h>
 #include <stdatomic.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYDispatchQueueInterposer.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/Interposer/GREYDispatchQueueInterposer.h"
 
 /**
  * A pointer to the original implementation of @c dispatch_after.

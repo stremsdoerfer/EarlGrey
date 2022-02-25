@@ -27,9 +27,9 @@
 #ifndef COMMON_GREY_ASSERTION_DEFINES_H
 #define COMMON_GREY_ASSERTION_DEFINES_H
 
-#import "GREYFailureHandler.h"
-#import "GREYFrameworkException.h"
-#import "GREYDefines.h"
+#import "../Exceptions/GREYFailureHandler.h"
+#import "../Exceptions/GREYFrameworkException.h"
+#import "../GREYDefines.h"
 
 #pragma mark - Private Macros
 

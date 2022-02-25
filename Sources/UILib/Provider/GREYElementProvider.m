@@ -19,9 +19,9 @@
 #include <objc/runtime.h>
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYProvider.h"
+#import "../../CommonLib/Provider/GREYProvider.h"
 #import "GREYDataEnumerator.h"
-#import "GREYTraversalBFS.h"
+#import "../Traversal/GREYTraversalBFS.h"
 
 @implementation GREYElementProvider {
   id<GREYProvider> _rootProvider;

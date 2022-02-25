@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYConstants.h"
+#import "../GREYConstants.h"
 
 /**
  * Modeled after NSLayoutConstraint, this class captures information related to a layout

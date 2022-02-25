@@ -20,7 +20,7 @@
 
 #import "UIViewController+GREYApp.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 @implementation UIWindow (GREYApp)
 

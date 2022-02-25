@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYTestApplicationDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
 
 /**
  * Prints a log statement in the format provided in the Test Logs.

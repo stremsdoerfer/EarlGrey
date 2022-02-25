@@ -16,9 +16,9 @@
 
 #import "GREYObjectFormatter.h"
 
-#import "GREYThrowDefines.h"
+#import "../Assertion/GREYThrowDefines.h"
 #import "GREYError.h"
-#import "GREYStringDescription.h"
+#import "../Matcher/GREYStringDescription.h"
 
 NSInteger const kGREYObjectFormatIndent = 2;
 

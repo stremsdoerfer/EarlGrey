@@ -17,9 +17,9 @@
 #import "GREYElementFinder.h"
 
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYThrowDefines.h"
-#import "GREYMatcher.h"
-#import "GREYProvider.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
+#import "../../CommonLib/Provider/GREYProvider.h"
 
 @implementation GREYElementFinder
 

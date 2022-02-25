@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "GREYElementInteraction.h"
-#import "GREYMatcher.h"
+#import "../../AppFramework/Core/GREYElementInteraction.h"
+#import "../../CommonLib/Matcher/GREYMatcher.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -18,12 +18,12 @@
 
 #include <stdatomic.h>
 
-#import "GREYElementInteraction.h"
-#import "GREYHostBackgroundDistantObject+GREYApp.h"
-#import "GREYThrowDefines.h"
-#import "GREYHostBackgroundDistantObject.h"
+#import "../../AppFramework/Core/GREYElementInteraction.h"
+#import "../../AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h"
+#import "../../CommonLib/Assertion/GREYThrowDefines.h"
+#import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
 #import "GREYElementInteractionErrorHandler.h"
-#import "GREYRemoteExecutor.h"
+#import "../Execution/GREYRemoteExecutor.h"
 
 @implementation GREYElementInteractionProxy {
   /** App-side interaction instance. */

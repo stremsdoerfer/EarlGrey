@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GREYDefines.h"
+#import "../GREYDefines.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

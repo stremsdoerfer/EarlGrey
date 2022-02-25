@@ -26,11 +26,11 @@
 
 // This should be the public header file for EarlGrey callers to include. Let IWYU know
 // not to tell users to add the internal headers below.
-#import "GREYUIThreadExecutor.h"
-#import "GREYAssertionDefinesPrivate.h"
-#import "GREYFailureHandler.h"
-#import "GREYFrameworkException.h"
-#import "GREYDefines.h"
+#import "../../AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "../../CommonLib/Assertion/GREYAssertionDefinesPrivate.h"
+#import "../../CommonLib/Exceptions/GREYFailureHandler.h"
+#import "../../CommonLib/Exceptions/GREYFrameworkException.h"
+#import "../../CommonLib/GREYDefines.h"
 #import "GREYWaitFunctions.h"
 
 /**

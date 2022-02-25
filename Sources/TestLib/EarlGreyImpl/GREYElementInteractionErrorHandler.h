@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "GREYError.h"
+#import "../../CommonLib/Error/GREYError.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

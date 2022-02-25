@@ -18,7 +18,7 @@
 
 #include <tgmath.h>
 
-#import "GREYDefines.h"
+#import "../../CommonLib/GREYDefines.h"
 
 #pragma mark - Constants
 

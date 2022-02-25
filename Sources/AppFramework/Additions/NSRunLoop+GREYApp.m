@@ -18,12 +18,12 @@
 
 #include <objc/runtime.h>
 
-#import "GREYNSTimerIdlingResource.h"
+#import "../IdlingResources/GREYNSTimerIdlingResource.h"
 #import "../../CommonLib/Assertion/GREYFatalAsserts.h"
-#import "GREYConfigKey.h"
-#import "GREYConfiguration.h"
-#import "GREYConstants.h"
-#import "GREYSwizzler.h"
+#import "../../CommonLib/Config/GREYConfigKey.h"
+#import "../../CommonLib/Config/GREYConfiguration.h"
+#import "../../CommonLib/GREYConstants.h"
+#import "../../CommonLib/GREYSwizzler.h"
 
 /** Class for NSBlock which denotes recurrent timers from not being tracked.*/
 static Class gBlockClass;

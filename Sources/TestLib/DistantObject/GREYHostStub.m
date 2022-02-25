@@ -16,20 +16,20 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GREYActions.h"
+#import "../../AppFramework/Action/GREYActions.h"
 
-#import "GREYFailureScreenshotter.h"
-#import "GREYSyntheticEvents.h"
-#import "GREYKeyboard.h"
-#import "GREYAllOf.h"
-#import "GREYAnyOf.h"
-#import "GREYMatchers.h"
-#import "GREYUIThreadExecutor.h"
-#import "GREYHostApplicationDistantObject.h"
-#import "GREYHostBackgroundDistantObject.h"
-#import "GREYTestApplicationDistantObject.h"
-#import "GREYElementHierarchy.h"
-#import "GREYScreenshotter.h"
+#import "../../AppFramework/Error/GREYFailureScreenshotter.h"
+#import "../../AppFramework/Event/GREYSyntheticEvents.h"
+#import "../../AppFramework/Keyboard/GREYKeyboard.h"
+#import "../../AppFramework/Matcher/GREYAllOf.h"
+#import "../../AppFramework/Matcher/GREYAnyOf.h"
+#import "../../AppFramework/Matcher/GREYMatchers.h"
+#import "../../AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "../../CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
+#import "../../CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "../../UILib/GREYElementHierarchy.h"
+#import "../../UILib/GREYScreenshotter.h"
 
 
 // Stub classes defined in the host (app under test)

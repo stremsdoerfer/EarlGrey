@@ -16,7 +16,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GREYTraversalObject.h"
+#import "../Traversal/GREYTraversalObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
