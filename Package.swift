@@ -13,12 +13,12 @@ let package = Package(
         .library(
             name: "EarlGrey2SPM",
             targets: ["EarlGrey2SPM"]),
+        .library(
+            name: "EarlGreyTestLib",
+            targets: ["TestLib"]),
     ],
     dependencies: [
       .package(url: "https://github.com/stremsdoerfer/eDistantObject", .branch("master")),
-//      .package(url: "https://github.com/stremsdoerfer/TestPackage", .branch("main")),
-      .package(url: "https://github.com/hamcrest/OCHamcrest", .branch("main"))
-//      .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .branch("master")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -32,7 +32,6 @@ let package = Package(
               .product(name: "EDOService", package: "eDistantObject"),
               .product(name: "EDOChannel", package: "eDistantObject"),
               .product(name: "eDistantObject", package: "eDistantObject"),
-              .product(name: "OCHamcrest", package: "OCHamcrest"),
             ]),
         .target(
             name: "AppFramework",
@@ -49,7 +48,8 @@ let package = Package(
               .product(name: "EDOChannel", package: "eDistantObject"),
               .product(name: "EDOService", package: "eDistantObject"),
               "CommonLib"
-            ]),
+            ],
+            publicHeadersPath: "include"),
         .target(
             name: "UILib",
             dependencies: [

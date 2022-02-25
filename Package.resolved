@@ -9,15 +9,6 @@
           "revision": "7cd4c6bb3ca3f95ead5cf930889a0e1b5881daf5",
           "version": null
         }
-      },
-      {
-        "package": "OCHamcrest",
-        "repositoryURL": "https://github.com/hamcrest/OCHamcrest",
-        "state": {
-          "branch": "main",
-          "revision": "798c0d82f954f707209075eff8aec020b904be6a",
-          "version": null
-        }
       }
     ]
   },
