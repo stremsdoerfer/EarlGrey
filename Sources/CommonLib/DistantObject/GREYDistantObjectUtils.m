@@ -1,9 +1,8 @@
+@import EDOService;
 #import "GREYDistantObjectUtils.h"
 
 #import "GREYHostApplicationDistantObject.h"
 #import "GREYTestApplicationDistantObject.h"
-#import "EDOHostService.h"
-#import "EDOServicePort.h"
 
 NSArray<id> *GREYGetLocalArrayShallowCopy(NSArray<id> *remoteArray) {
   NSMutableArray<id> *localArray = [NSMutableArray array];
