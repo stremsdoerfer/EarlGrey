@@ -1,10 +1,6 @@
 import Foundation
-import eDistantObject
-import EDODeviceForwarder
-import EDOMeasure
-import EDOService
-import EDOChannel
-import EDODevice
+
+import CommonLib
 
 public struct EarlGrey2SPM {
     public private(set) var text = "Hello, World!"
@@ -13,12 +9,13 @@ public struct EarlGrey2SPM {
       let fileManager = FileManager.default
       let path = fileManager.currentDirectoryPath
 
-      var blah = EDONumericMeasure()
-      var test = EDODeviceForwardersManager(deviceUUID: "", port: 133, numOfForwarders: 13)
+//      var blah = EDONumericMeasure()
+//      var test = EDODeviceForwardersManager(deviceUUID: "", port: 133, numOfForwarders: 13)
+
 
       //let hostPort = EDOHostPort.hostPortWithLocalPort(12)
       print("hey")
-      print(eDistantObject().text)
+//      print(eDistantObject().text)
 //      print(NewPackage().newText)
 //      print(TestPackageObjC().testFunc())
 //      TestPackageObjC().testFunc()

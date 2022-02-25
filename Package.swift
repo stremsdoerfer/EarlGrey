@@ -19,6 +19,9 @@ let package = Package(
         .library(
             name: "EarlGreyAppFramework",
             targets: ["AppFramework"]),
+        .library(
+            name: "EarlGreyCommonLib",
+            targets: ["CommonLib"]),
     ],
     dependencies: [
       .package(url: "https://github.com/stremsdoerfer/eDistantObject", .branch("master")),
@@ -27,15 +30,12 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "EarlGrey2SPM",
-            dependencies: [
-              .product(name: "EDODeviceForwarder", package: "eDistantObject"),
-              .product(name: "EDOMeasure", package: "eDistantObject"),
-              .product(name: "EDODevice", package: "eDistantObject"),
-              .product(name: "EDOService", package: "eDistantObject"),
-              .product(name: "EDOChannel", package: "eDistantObject"),
-              .product(name: "eDistantObject", package: "eDistantObject"),
-            ]),
+          name: "EarlGrey2SPM",
+          dependencies: [
+            "AppFramework",
+            "CommonLib",
+            "TestLib",
+          ]),
         .target(
             name: "AppFramework",
             dependencies: [
@@ -51,7 +51,8 @@ let package = Package(
             dependencies: [
               .product(name: "EDOChannel", package: "eDistantObject"),
               .product(name: "EDOService", package: "eDistantObject"),
-            ]),
+            ],
+            publicHeadersPath: "include"),
         .target(
             name: "TestLib",
             dependencies: [
